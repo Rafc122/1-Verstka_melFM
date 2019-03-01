@@ -1,0 +1,13 @@
+li {
+    list-style-type: none; /* Убираем маркеры */
+    margin: 0;
+}
+body {
+    margin:0;
+    background:whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}

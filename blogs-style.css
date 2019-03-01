@@ -1,0 +1,12 @@
+.blogs-info {
+    display: inline-flex;
+    width: 320px;
+    height: 400px;
+    background: white;
+    margin-left: 25px;
+}
+.blogs-block {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}

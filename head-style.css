@@ -1,0 +1,18 @@
+header {
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    background: #212121;
+    color: white;
+}
+header li {
+    padding-top: 20px;
+    display: inline-flex;
+}
+header ul {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#inf-head span {
+    padding-left: 30px;
+}
