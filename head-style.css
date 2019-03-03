@@ -5,14 +5,14 @@ header {
     background: #212121;
     color: white;
 }
-header li {
-    padding-top: 20px;
+#mel {
+    font-size: 40px;
+}
+header ul{
     display: inline-flex;
 }
-header ul {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-#inf-head span {
-    padding-left: 30px;
+#Sing-up_and_make_blog {
+    position: relative;
+    bottom: 10px;
+    padding-left: 900px
 }

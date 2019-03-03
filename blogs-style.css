@@ -1,12 +1,23 @@
 .blogs-info {
-    display: inline-flex;
     width: 320px;
-    height: 400px;
+    height: 420px;
+    margin-left: 30px;
     background: white;
-    margin-left: 25px;
+    text-align:  center;
 }
 .blogs-block {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.times_view {
+    padding-top: 20px;
+    font-size: 16px;
+}
+.info_about {
+    padding-top: 10px;
+    font-size: 60px;
+}
+.titles {
+    font-size: 15px;
 }
