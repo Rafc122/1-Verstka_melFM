@@ -12,7 +12,38 @@ header ul{
     display: inline-flex;
 }
 #Sing-up_and_make_blog {
+    width: 300px;
     position: relative;
-    bottom: 10px;
-    padding-left: 900px
+    bottom: 35px;
+    left: 820px;
+    font-size: 20px;
+}
+#inf-head {
+    position: relative;
+    left: 270px;
+    bottom: 35px;
+}
+#mel {
+    position: relative;
+    top: 11px;
+    left: 170px;
+}
+.categori-head {
+    padding-left: 22px
+}
+.fa-pen-square span{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    bottom: 1px;
+}
+.fa-pen-square {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#entrance {
+    position: relative;
+    font-size: 15px;
+    bottom: 1px;
+    font-family: sans-serif;
 }

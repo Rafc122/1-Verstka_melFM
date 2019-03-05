@@ -1,7 +1,8 @@
 .blogs-info {
     width: 320px;
-    height: 420px;
+    height: 480px;
     margin-left: 30px;
+    margin-bottom: 15px;
     background: white;
     text-align:  center;
 }
@@ -11,13 +12,25 @@
     padding-right: 140px;
 }
 .times_view {
-    padding-top: 20px;
-    font-size: 16px;
+    position: relative;
+    top: 60px;
+    font-size: 14px;
+    color: #a1a3a3;
 }
 .info_about {
-    padding-top: 10px;
-    font-size: 60px;
+    position: relative;
+    height: 130px;
+    top: 15px;
+    font-size: 27px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .titles {
+    position: relative;
+    top: 5px;
     font-size: 15px;
+    color: #ec346d;
+}
+#blogs {
+    padding-top: 5px;
 }

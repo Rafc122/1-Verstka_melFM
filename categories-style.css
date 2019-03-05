@@ -1,8 +1,14 @@
 #categories li {
     margin: auto;
     display: inline;
+    padding-left: 25px;
 }
 #categories ul {
     padding-left: 170px;
     padding-right: 170px;
+}
+#categories {
+    position: relative;
+    right: 20px;
+    padding-top: 17px;
 }

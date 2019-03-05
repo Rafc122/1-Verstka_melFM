@@ -1,7 +1,33 @@
 #information {
-    margin: 0;
     height: 270px;
-    bottom: 0px;
     width: 100%;
+    position: relative;
     background: #212121;
+}
+#information ul {
+    padding-top: 60px;
+    margin: 0;
+}
+#inf-categories {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+#inf-categories span {
+    padding-left: 20px;
+}
+#inf {
+    position: relative;
+    width: 800px;
+    font-size: 15px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #a1a3a3;
+}
+#inf span {
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
