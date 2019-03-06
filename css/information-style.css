@@ -2,10 +2,10 @@
     height: 270px;
     width: 100%;
     position: relative;
-    background: #212121;
+    background: hsl(0, 0%, 13%);
 }
 #information ul {
-    padding-top: 60px;
+    padding-top: 70px;
     margin: 0;
 }
 #inf-categories {
@@ -13,7 +13,9 @@
     width: 900px;
     margin: 0 auto;
     text-align: center;
+    font-size: 14px;
     color: white;
+    font-weight: bold;
 }
 #inf-categories span {
     padding-left: 20px;

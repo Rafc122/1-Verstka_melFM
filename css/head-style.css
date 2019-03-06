@@ -1,29 +1,36 @@
 header {
     margin: 0;
-    height: 60px;
+    height: 80px;
     width: 100%;
-    background: #212121;
+    background: hsl(0, 0%, 13%);
     color: white;
 }
-#mel {
-    font-size: 40px;
+#sait-name {
+    font-size: 50px;
+    width: 100px;
+}
+#sait-name span {
+    position: relative;
+    top: 5px;
+    right: 25px;
+    font-weight: bold;
 }
 header ul{
     display: inline-flex;
 }
-#Sing-up_and_make_blog {
+#sing-up-and-make-blog {
     width: 300px;
     position: relative;
-    bottom: 35px;
-    left: 820px;
-    font-size: 20px;
+    bottom: 38px;
+    left: 850px;
+    font-size: 23px;
 }
 #inf-head {
     position: relative;
-    left: 270px;
-    bottom: 35px;
+    left: 250px;
+    bottom: 42px;
 }
-#mel {
+#sait-name {
     position: relative;
     top: 11px;
     left: 170px;
@@ -34,8 +41,8 @@ header ul{
 .fa-pen-square span{
     position: relative;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 15px;
-    bottom: 1px;
+    font-size: 13px;
+    bottom: 4px;
 }
 .fa-pen-square {
     padding-left: 2px;
@@ -43,7 +50,7 @@ header ul{
 }
 #entrance {
     position: relative;
-    font-size: 15px;
-    bottom: 1px;
-    font-family: sans-serif;
+    font-size: 13px;
+    bottom: 4px;
+    font-weight: bold;
 }

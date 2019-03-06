@@ -1,35 +1,37 @@
 .blogs-info {
     width: 320px;
     height: 480px;
-    margin-left: 30px;
+    margin-left: 32px;
     margin-bottom: 15px;
     background: white;
     text-align:  center;
 }
 .blogs-block {
     display: flex;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
-.times_view {
+.times-view {
     position: relative;
     top: 60px;
     font-size: 14px;
     color: #a1a3a3;
 }
-.info_about {
+.info-about {
     position: relative;
     height: 130px;
     top: 15px;
     font-size: 27px;
     margin-left: 20px;
     margin-right: 20px;
+    font-weight: bold;
 }
 .titles {
     position: relative;
     top: 5px;
     font-size: 15px;
     color: #ec346d;
+    font-weight: bold;
 }
 #blogs {
     padding-top: 5px;
