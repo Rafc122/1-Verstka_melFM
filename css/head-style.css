@@ -1,9 +1,12 @@
 header {
     margin: 0;
-    height: 80px;
+    height: 70px;
     width: 100%;
     background: hsl(0, 0%, 13%);
     color: white;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 #sait-name {
     font-size: 50px;
@@ -12,7 +15,6 @@ header {
 #sait-name span {
     position: relative;
     top: 5px;
-    right: 25px;
     font-weight: bold;
 }
 header ul{
@@ -21,19 +23,22 @@ header ul{
 #sing-up-and-make-blog {
     width: 300px;
     position: relative;
-    bottom: 38px;
-    left: 850px;
+    left: 500px;
+    top: 12px;
     font-size: 23px;
 }
 #inf-head {
+    width: 400px;
     position: relative;
-    left: 250px;
-    bottom: 42px;
+    top: 18px;
 }
 #sait-name {
+    display: flex;
+    margin: 0;
+    width: 100px;
     position: relative;
     top: 11px;
-    left: 170px;
+    font-weight: bold;
 }
 .categori-head {
     padding-left: 22px
