@@ -5,8 +5,7 @@ header {
     background: hsl(0, 0%, 13%);
     color: white;
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    justify-content: center;
 }
 #sait-name {
     font-size: 50px;
@@ -14,7 +13,7 @@ header {
 }
 #sait-name span {
     position: relative;
-    top: 5px;
+    top: 3px;
     font-weight: bold;
 }
 header ul{
@@ -23,7 +22,6 @@ header ul{
 #sing-up-and-make-blog {
     width: 300px;
     position: relative;
-    left: 500px;
     top: 12px;
     font-size: 23px;
 }

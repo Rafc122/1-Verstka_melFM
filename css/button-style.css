@@ -1,0 +1,27 @@
+.knopka01 {
+    width: 200px;
+    height: 44px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background: rgb(131, 210, 218) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+    color: rgb(255, 255, 255);
+    user-select: none;
+} 
+.knopka01:hover {
+    color: rgb(0,59,66);
+    cursor: pointer;
+}
+.knopka01:active {
+    padding-bottom: 1px;
+    color: rgb(128,207,214);
+}
+#button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
