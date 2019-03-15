@@ -10,15 +10,20 @@
 }
 #inf-categories {
     position: relative;
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
     text-align: center;
     font-size: 14px;
     color: white;
     font-weight: bold;
 }
-#inf-categories span {
+#inf-categories a {
     padding-left: 20px;
+    text-decoration: none;
+    color: #ececec;
+}
+#inf-categories a:hover {
+    color: rgb(126, 194, 201);
 }
 #inf {
     position: relative;
@@ -27,9 +32,13 @@
     padding-top: 20px;
     margin: 0 auto;
     text-align: center;
-    color: #a1a3a3;
 }
-#inf span {
+#inf a {
     padding-left: 20px;
     padding-bottom: 20px;
+    text-decoration: none;
+    color: #a1a3a3;
+}
+#inf a:hover {
+    color: rgb(126, 194, 201);
 }

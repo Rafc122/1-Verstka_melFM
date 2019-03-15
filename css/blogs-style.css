@@ -2,6 +2,7 @@
     display: flex;
     width: 300px;
     height: 480px;
+    margin-left: 30px;
     margin-bottom: 15px;
     background: white;
     text-align:  center;
@@ -38,4 +39,7 @@
 }
 #blogs {
     padding-top: 5px;
+}
+#first_element {
+    margin-left: 0;
 }

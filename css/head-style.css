@@ -10,8 +10,6 @@ header {
 #sait-name {
     font-size: 50px;
     width: 100px;
-}
-#sait-name span {
     position: relative;
     top: 3px;
     font-weight: bold;
@@ -34,26 +32,47 @@ header ul{
     display: flex;
     margin: 0;
     width: 100px;
-    position: relative;
-    top: 11px;
+}
+#sait-name a {
+    color: white;
+    text-decoration: none;
     font-weight: bold;
+    position: relative;
 }
 .categori-head {
-    padding-left: 22px
+    padding-left: 22px;
+    color: white;
+    text-decoration: none;
 }
 .fa-pen-square span{
     position: relative;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 13px;
     bottom: 4px;
+    color: white;
 }
 .fa-pen-square {
     padding-left: 2px;
     padding-right: 2px;
+    color: white;
+}
+#blog-write {
+    text-decoration: none;
+}
+#blog-write:hover {
+    color: rgb(126, 194, 201); 
+}
+.fa-pen-square:hover {
+    color: rgb(126, 194, 201); 
+}
+.fa-pen-square span:hover {
+    color: rgb(126, 194, 201); 
 }
 #entrance {
     position: relative;
     font-size: 13px;
     bottom: 4px;
     font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
