@@ -1,7 +1,7 @@
 .blogs-info {
     display: flex;
-    width: 300px;
-    height: 480px;
+    width: 280px;
+    height: 440px;
     margin-left: 30px;
     margin-bottom: 15px;
     background: white;
@@ -10,32 +10,35 @@
     flex-direction: column;/*как сделать пробелы*/
 }
 .blogs-block {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
     justify-content: center;
 }
 .times-view {
     position: relative;
-    top: 60px;
+    top: 30px;
     font-size: 14px;
     color: #a1a3a3;
 }
 .info-about {
     position: relative;
     height: 130px;
-    top: 15px;
-    font-size: 27px;
-    margin-left: 20px;
-    margin-right: 20px;
+    top: 20px;
+    font-size: 21.5px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-weight: bold;
+}
+.info-about:hover {
+    color: rgb(126, 194, 201); 
 }
 .titles {
     position: relative;
-    top: 5px;
-    font-size: 15px;
+    font-size: 11px;
     color: #ec346d;
     font-weight: bold;
+    top: 8px;
 }
 #blogs {
     padding-top: 5px;

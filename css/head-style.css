@@ -5,7 +5,6 @@ header {
     background: hsl(0, 0%, 13%);
     color: white;
     display: flex;
-    justify-content: center;
 }
 #sait-name {
     font-size: 50px;
@@ -16,12 +15,15 @@ header {
 }
 header ul{
     display: inline-flex;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 #sing-up-and-make-blog {
     width: 300px;
     position: relative;
     top: 12px;
-    font-size: 23px;
+    font-size: 20px;
+    left: 470px;
 }
 #inf-head {
     width: 400px;
@@ -38,23 +40,42 @@ header ul{
     text-decoration: none;
     font-weight: bold;
     position: relative;
+    bottom: 5px;
 }
 .categori-head {
+    position: relative;
     padding-left: 22px;
     color: white;
     text-decoration: none;
+    font-size: 15px;
+    bottom: 6px;
+}
+.categori-head:hover {
+    color: rgb(126, 194, 201); 
 }
 .fa-pen-square span{
     position: relative;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 13px;
     bottom: 4px;
+    left: 4px;
     color: white;
 }
 .fa-pen-square {
     padding-left: 2px;
     padding-right: 2px;
     color: white;
+}
+#blog-search {
+    text-decoration: none;
+}
+.fa-search {
+    color: white;
+    position: relative;
+    right: 8px; 
+}
+.fa-search:hover {
+    color: rgb(126, 194, 201); 
 }
 #blog-write {
     text-decoration: none;
@@ -75,4 +96,8 @@ header ul{
     font-weight: bold;
     color: white;
     text-decoration: none;
+    left: 8px;
+}
+#entrance:hover {
+    color: rgb(126, 194, 201); 
 }

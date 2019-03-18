@@ -4,16 +4,17 @@
     padding-left: 25px;
 }
 #categories ul {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 #categories {
     display: flex;
     position: relative;
     right: 20px;
-    padding-top: 17px;
+    padding-top: 20px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 600;
+    font-stretch: 100%;
 }
 #categories span:hover {
     color: rgb(126, 194, 201);
