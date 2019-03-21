@@ -16,6 +16,10 @@
     font-weight: 600;
     font-stretch: 100%;
 }
-#categories span:hover {
+#categories a:hover {
     color: rgb(126, 194, 201);
-  }
+}
+#categories a{
+    color: #000025;
+    text-decoration: none;
+}

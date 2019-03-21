@@ -1,12 +1,12 @@
 #e-mail {
     margin: 0;
-    height: 280px;
+    height: 290px;
     width: 100%;
     background-image: url(https://picsum.photos/5472/3648?image=1073);
 }
 #e-mail ul {
     position: relative; 
-    top: 60px;
+    top: 95px;
 }
 #searching {
     position: relative;
