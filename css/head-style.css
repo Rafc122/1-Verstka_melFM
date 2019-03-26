@@ -16,6 +16,7 @@ header ul{
     display: inline-flex;
     padding-left: 150px;
     padding-right: 150px;
+    justify-content: center;
 }
 #sing-up-and-make-blog {
     width: 300px;

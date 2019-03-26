@@ -1,8 +1,10 @@
 #information {
+    display: flex;
     height: 368px;
     width: 100%;
     position: relative;
     background: hsl(0, 0%, 13%);
+    justify-content: center;
 }
 #information ul {
     padding-top: 70px;
@@ -14,7 +16,6 @@
     margin: 0 auto;
     text-align: center;
     font-size: 14px;
-    color: white;
     font-weight: bold;
 }
 #inf-categories a {
@@ -41,4 +42,22 @@
 }
 #inf a:hover {
     color: rgb(126, 194, 201);
+}
+#icon-web {
+    font-size: 32px;
+    padding-top: 50px;
+    text-align: center;
+}
+#icon-web a {
+    color: #ececec;
+    text-decoration: none;
+}
+#icon-web i {
+    padding-left: 30px;
+}
+#traid-mark {
+    text-align: center;
+    padding-top: 50px;
+    color: #ececec;
+    font-size: 13px;
 }

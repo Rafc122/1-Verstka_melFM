@@ -1,4 +1,4 @@
-.knopka01 {
+.button-styles {
     width: 200px;
     height: 44px;
     line-height: 50px;
@@ -12,11 +12,11 @@
     color: rgb(255, 255, 255);
     user-select: none;
 } 
-.knopka01:hover {
+.button-styles:hover {
     color: rgb(0,59,66);
     cursor: pointer;
 }
-.knopka01:active {
+.button-styles:active {
     padding-bottom: 1px;
     color: rgb(128,207,214);
 }
