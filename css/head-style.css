@@ -21,14 +21,14 @@ header ul{
 #sing-up-and-make-blog {
     width: 300px;
     position: relative;
-    top: 6px;
+    top: 8px;
     font-size: 22px;
     left: 470px;
 }
 #inf-head {
     width: 400px;
     position: relative;
-    top: 18px;
+    top: 20px;
 }
 #sait-name {
     display: flex;
@@ -58,11 +58,10 @@ header ul{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 13px;
     bottom: 4px;
-    left: 4px;
+    left: 5px;
     color: white;
 }
 .fa-pen-square {
-    padding-left: 2px;
     padding-right: 2px;
     color: white;
 }
@@ -72,12 +71,14 @@ header ul{
 .fa-search {
     color: white;
     position: relative;
-    right: 18px; 
+    right: 30px; 
 }
 .fa-search:hover {
     color: rgb(126, 194, 201); 
 }
 #blog-write {
+    position: relative;
+    right: 20px;
     text-decoration: none;
 }
 #blog-write:hover {

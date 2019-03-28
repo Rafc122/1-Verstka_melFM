@@ -7,7 +7,7 @@
     justify-content: center;
 }
 #information ul {
-    padding-top: 70px;
+    padding-top: 58px;
     margin: 0;
 }
 #inf-categories {
@@ -30,7 +30,7 @@
     position: relative;
     width: 780px;
     font-size: 15px;
-    padding-top: 30px;
+    padding-top: 32px;
     margin: 0 auto;
     text-align: center;
 }
@@ -45,7 +45,7 @@
 }
 #icon-web {
     font-size: 32px;
-    padding-top: 50px;
+    padding-top: 75px;
     text-align: center;
 }
 #icon-web a {
@@ -53,11 +53,11 @@
     text-decoration: none;
 }
 #icon-web i {
-    padding-left: 30px;
+    padding-right: 26px;
 }
 #traid-mark {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 44px;
     color: #ececec;
     font-size: 13px;
 }

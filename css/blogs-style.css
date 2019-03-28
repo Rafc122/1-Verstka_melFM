@@ -3,21 +3,19 @@
     width: 280px;
     height: 440px;
     margin-left: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     background: white;
     text-align:  center;
     flex-wrap: wrap;
     flex-direction: column;/*как сделать пробелы*/
 }
 .blogs-block {
-    padding-left: 150px;
-    padding-right: 150px;
     display: flex;
     justify-content: center;
 }
 .times-view {
     position: relative;
-    top: 30px;
+    top: 26.5px;
     font-size: 14px;
     color: #a1a3a3;
 }
@@ -26,8 +24,8 @@
     height: 130px;
     top: 20px;
     font-size: 21.5px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-weight: bold;
 }
 .info-about:hover {
@@ -35,14 +33,17 @@
 }
 .titles {
     position: relative;
-    font-size: 11px;
+    font-size: 12px;
     color: #ec346d;
     font-weight: bold;
-    top: 8px;
+    top: 12px;
 }
 #blogs {
     padding-top: 5px;
 }
 #first_element {
     margin-left: 0;
+}
+@media (max-width: 750px) {
+    
 }

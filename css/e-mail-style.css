@@ -15,18 +15,17 @@
 }
 #name-block {
     position: relative;
-    width: 350px;
+    width: 340px;
     margin: 0 auto;
-    font-size: 30px;
-    bottom: 20px;
+    font-size: 28px;
+    bottom: 24px;
     color: white;
     text-align: center;
     font-weight: bold;
 }
 #searching input {
     width: 100%;
-    height: 42px;
-    padding-left: 10px;
+    height: 34px;
     border: 1px solid rgb(255, 255, 255);
     outline: none;
     background: #F9F0DA;
@@ -34,9 +33,11 @@
 }
 #searching button {
     position: relative;
-    bottom: 40px; 
-    left: 380px;
-    font-size: 30px;
+    bottom: 34.5px; 
+    left: 370px;
+    font-size: 27px;
+    width: 20px;
+    height: px;
     background: #F9F0DA;
     color: rgb(126, 194, 201);
     border: none;
@@ -44,7 +45,7 @@
 }
 #inf-about-mail {
     position: relative;
-    top: 20px;
+    bottom: 10.2px;
     width: 430px;
     margin: 0 auto;
     font-size: 14px;
