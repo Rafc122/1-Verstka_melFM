@@ -11,10 +11,10 @@
     margin: 0;
 }
 #inf-categories {
-    position: relative;
+    display: flex;
     width: 800px;
     margin: 0 auto;
-    text-align: center;
+    justify-content: center;
     font-size: 14px;
     font-weight: bold;
 }
@@ -27,12 +27,12 @@
     color: rgb(126, 194, 201);
 }
 #inf {
-    position: relative;
     width: 780px;
     font-size: 15px;
     padding-top: 32px;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
 #inf a {
     padding-left: 20px;
@@ -44,9 +44,11 @@
     color: rgb(126, 194, 201);
 }
 #icon-web {
+    display: flex;
     font-size: 32px;
     padding-top: 75px;
     text-align: center;
+    justify-content: center;
 }
 #icon-web a {
     color: #ececec;
@@ -56,8 +58,10 @@
     padding-right: 26px;
 }
 #traid-mark {
+    display: flex;
     text-align: center;
     padding-top: 44px;
     color: #ececec;
     font-size: 13px;
+    justify-content: center;
 }

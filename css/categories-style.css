@@ -20,3 +20,8 @@
     color: #000025;
     text-decoration: none;
 }
+@media (max-width: 1000px) {
+    #categories  {
+        right: 30px;
+    }
+}

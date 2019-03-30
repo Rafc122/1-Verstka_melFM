@@ -6,49 +6,49 @@ header {
     color: white;
     display: flex;
 }
-#sait-name {
-    font-size: 50px;
-    width: 100px;
+#head-full {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
     position: relative;
-    font-weight: bold;
-}
-header ul{
-    display: inline-flex;
     padding-left: 150px;
-    padding-right: 150px;
-    justify-content: center;
 }
 #sing-up-and-make-blog {
     width: 300px;
-    position: relative;
-    top: 8px;
     font-size: 22px;
-    left: 470px;
+    position: relative;
+    top: 25px;
+    right: 10px;
 }
 #inf-head {
     width: 400px;
+    display: inline-flex;
     position: relative;
-    top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    top: 11px;
+    right: 228px;
 }
 #sait-name {
-    display: flex;
+    font-size: 49px;
+    font-weight: bold;
     margin: 0;
-    width: 100px;
+    position: relative;
+    top: 10px;
 }
 #sait-name a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    position: relative;
-    bottom: 5px;
 }
 .categori-head {
-    position: relative;
     padding-left: 22px;
     color: white;
     text-decoration: none;
-    font-size: 15px;
-    bottom: 10px;
+    font-size: 14px;
 }
 .categori-head:hover {
     color: rgb(126, 194, 201); 
@@ -93,12 +93,35 @@ header ul{
 #entrance {
     position: relative;
     font-size: 13px;
-    bottom: 4px;
+    bottom: 5px;
     font-weight: bold;
+    width: 64px;
+    height: 30px;
     color: white;
     text-decoration: none;
-    left: 8px;
+    right: 7px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background: rgb(131, 210, 218) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+    color: rgb(255, 255, 255);
+    user-select: none;
+    line-height: 30px;
+}
+#entrance:active {
+    color: rgb(128,207,214);
 }
 #entrance:hover {
-    color: rgb(126, 194, 201); 
+    cursor: pointer; 
+}
+@media (max-width: 1000px) {
+    #sing-up-and-make-blogn {
+      display: none;
+    }
+    #head-full {
+        padding-left: 0px;
+    }
+    #inf-head {
+        right: 28px;
+    }
 }
