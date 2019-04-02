@@ -27,7 +27,7 @@ header {
     width: 400px;
     display: inline-flex;
     position: relative;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     top: 11px;
     right: 228px;
@@ -55,7 +55,7 @@ header {
 }
 .fa-pen-square span{
     position: relative;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     font-size: 13px;
     bottom: 4px;
     left: 5px;
@@ -103,25 +103,187 @@ header {
     outline: none;
     border: none;
     border-radius: 100px;
-    background: rgb(131, 210, 218) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+    background: rgb(104, 180, 189) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
     color: rgb(255, 255, 255);
     user-select: none;
     line-height: 30px;
 }
-#entrance:active {
-    color: rgb(128,207,214);
-}
 #entrance:hover {
-    cursor: pointer; 
+    cursor: pointer;
+    background: rgb(128,207,214); 
 }
-@media (max-width: 1000px) {
-    #sing-up-and-make-blogn {
-      display: none;
+@media (max-width: 1520px) {
+    #head-full {
+        padding-left: 140px;
     }
+}
+@media (max-width: 1510px) {
+    #head-full {
+        padding-left: 135px;
+    }
+}
+@media (max-width: 1500px) {
+    #head-full {
+        padding-left: 130px;
+    }
+}
+@media (max-width: 1490px) {
+    #head-full {
+        padding-left: 125px;
+    }
+}
+@media (max-width: 1480px) {
+    #head-full {
+        padding-left: 120px;
+    }
+}
+@media (max-width: 1460px) {
+    #head-full {
+        padding-left: 110px;
+    }
+}
+@media (max-width: 1440px) {
+    #head-full {
+        padding-left: 100px;
+    }
+}
+@media (max-width: 1420px) {
+    #head-full {
+        padding-left: 90px;
+    }
+}
+@media (max-width: 1400px) {
+    #head-full {
+        padding-left: 80px;
+    }
+}
+@media (max-width: 1380px) {
+    #head-full {
+        padding-left: 70px;
+    }
+}
+@media (max-width: 1360px) {
+    #head-full {
+        padding-left: 60px;
+    }
+}
+@media (max-width: 1350px) {
+    #head-full {
+        padding-left: 55px;
+    }
+    #inf-head {
+        right: 218px;
+    }
+}
+@media (max-width: 1340px) {
+    #head-full {
+        padding-left: 50px;
+    }
+    #inf-head {
+        right: 208px;
+    }
+}
+@media (max-width: 1330px) {
+    #head-full {
+        padding-left: 45px;
+    }
+    #inf-head {
+        right: 198px;
+    }
+}
+@media (max-width: 1320px) {
+    #head-full {
+        padding-left: 40px;
+    }
+    #inf-head {
+        right: 188px;
+    }
+}
+@media (max-width: 1310px) {
+    #head-full {
+        padding-left: 35px;
+    }
+}
+@media (max-width: 1300px) {
+    #head-full {
+        padding-left: 30px;
+    }
+    #inf-head {
+        right: 178px;
+    }
+}
+@media (max-width: 1290px) {
+    #head-full {
+        padding-left: 25px;
+    }
+    #inf-head {
+        right: 180px;
+    }
+}
+@media (max-width: 1280px) {
+    #head-full {
+        padding-left: 20px;
+    }
+    #inf-head {
+        right: 198px;
+    }
+}
+@media (max-width: 1270px) {
+    #head-full {
+        padding-left: 15px;
+    }
+    #inf-head {
+        right: 198px;
+    }
+}
+@media (max-width: 1260px) {
+    #head-full {
+        padding-left: 10px;
+    }
+    #inf-head {
+        right: 208px;
+    }
+}
+@media (max-width: 1250px) {
+    #head-full {
+        padding-left: 5px;
+    }
+    #inf-head {
+        right: 198px;
+    }
+}
+@media (max-width: 1240px) {
     #head-full {
         padding-left: 0px;
     }
     #inf-head {
-        right: 28px;
+        right: 188px;
+    }
+}
+@media (max-width: 1150px) {
+    #inf-head {
+        right: 158px;
+    }
+}
+@media (max-width: 1100px) {
+    #inf-head {
+        right: 88px;
+    }
+}
+@media (max-width: 1085px) {
+    #inf-head {
+        right: 128px;
+    }
+}
+@media (max-width: 1050px) {
+    .fa-pen-square span {
+        display: none;
+    }
+    #sing-up-and-make-blog {
+        left: 0px;
+        width: 150px;
+    }
+    #inf-head {
+        display: none;
     }
 }

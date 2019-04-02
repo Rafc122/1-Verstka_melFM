@@ -12,7 +12,7 @@
 }
 #inf-categories {
     display: flex;
-    width: 800px;
+    width: auto;
     margin: 0 auto;
     justify-content: center;
     font-size: 14px;
@@ -64,4 +64,11 @@
     color: #ececec;
     font-size: 13px;
     justify-content: center;
+}
+@media (max-width: 1050px) {
+    #inf {
+        display: block;
+        width: auto;
+        height: auto;
+    }
 }

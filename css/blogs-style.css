@@ -44,6 +44,15 @@
 #first_element {
     margin-left: 0;
 }
-@media (max-width: 750px) {
-    
+@media (max-width: 1050px) {
+    .blogs-block {
+        display: block;
+    }
+    .blogs-info {
+        margin-left: 0px;
+    }
+    #blogs {
+        display: flex;
+        justify-content: center;
+    }
 }
