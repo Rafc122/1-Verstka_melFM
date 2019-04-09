@@ -52,7 +52,18 @@
         margin-left: 0px;
     }
     #blogs {
-        display: flex;
+        display:   flex ;
         justify-content: center;
+    }
+}
+@media (max-width: 650px) {
+    .blogs-block {
+        display: block;
+    }
+    .blogs-info {
+        margin-left: 0px;
+    }
+    #blogs {
+        display: grid;
     }
 }

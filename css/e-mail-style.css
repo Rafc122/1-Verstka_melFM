@@ -52,3 +52,11 @@
     text-align: center;
     color: white;
 }
+@media (max-width: 670px) {
+    #searching {
+        width: 200px;
+    }
+    #searching button {
+        left: 80%;
+    }
+}

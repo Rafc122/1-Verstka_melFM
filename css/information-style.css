@@ -72,3 +72,11 @@
         height: auto;
     }
 }
+@media (max-width: 670px) {
+    #inf {
+        width: 400px;
+    }
+    #inf-categories {
+        display: block;
+    }
+}
