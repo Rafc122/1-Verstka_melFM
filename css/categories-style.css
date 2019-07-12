@@ -1,20 +1,83 @@
 #categories li {
     margin: auto;
     display: inline;
-    padding-left: 25px;
-}
-#categories ul {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-right: 20.5px;
 }
 #categories {
     display: flex;
+    justify-content: center;
     position: relative;
-    right: 20px;
-    padding-top: 17px;
-    font-size: 15px;
-    font-weight: bold;
+    right: 190px;
+    padding-top: 19.4px;
+    font-size: 14.6px;
+    font-weight: 500;
+    font-stretch: 100%;
+    margin: 0;
 }
-#categories span:hover {
+#categories a:hover {
     color: rgb(126, 194, 201);
-  }
+}
+#categories a{
+    color: #000025;
+    text-decoration: none;
+}
+@media (max-width: 1250px) {
+    #categories  {
+        right: 185px;
+    }
+}
+@media (max-width: 1230px) {
+    #categories  {
+        right: 175px;
+    }
+}
+@media (max-width: 1210px) {
+    #categories  {
+        right: 165px;
+    }
+}
+@media (max-width: 1190px) {
+    #categories  {
+        right: 155px;
+    }
+}
+@media (max-width: 1170px) {
+    #categories  {
+        right: 145px;
+    }
+}
+@media (max-width: 1150px) {
+    #categories  {
+        right: 135px;
+    }
+}
+@media (max-width: 1130px) {
+    #categories  {
+        right: 125px;
+    }
+}
+@media (max-width: 1110px) {
+    #categories  {
+        right: 115px;
+    }
+}
+@media (max-width: 1090px) {
+    #categories  {
+        right: 105px;
+    }
+}
+@media (max-width: 1070px) {
+    #categories  {
+        right: 95px;
+    }
+}
+@media (max-width: 1050px) {
+    #categories  {
+        right: 85px;
+    }
+}
+@media (max-width: 1050px) {
+    #categories  {
+        right: 85px;
+    }
+}

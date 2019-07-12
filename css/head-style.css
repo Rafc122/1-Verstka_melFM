@@ -1,61 +1,137 @@
 header {
     margin: 0;
-    height: 70px;
+    height: 59px;
     width: 100%;
     background: hsl(0, 0%, 13%);
     color: white;
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
 }
-#sait-name {
-    font-size: 50px;
-    width: 100px;
-}
-#sait-name span {
+#head-full {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
     position: relative;
-    top: 5px;
-    font-weight: bold;
-}
-header ul{
-    display: inline-flex;
+    padding-left: 150px;
 }
 #sing-up-and-make-blog {
     width: 300px;
+    font-size: 22px;
     position: relative;
-    left: 500px;
-    top: 12px;
-    font-size: 23px;
+    top: 10px;
+    right: 12px;
 }
 #inf-head {
-    width: 400px;
+    display: inline-flex;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#inf-head li {
     position: relative;
-    top: 18px;
+    height: 100%;
+    bottom: 4.2px;
+    right: 262px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+#ative-line {
+    box-sizing: border-box;
+    border-bottom: 4px solid #2FF7D8;
 }
 #sait-name {
-    display: flex;
+    font-size: 42px;
+    font-weight: bold;
     margin: 0;
-    width: 100px;
     position: relative;
-    top: 11px;
+    bottom: 5px;
+}
+#sait-name a {
+    color: white;
+    text-decoration: none;
     font-weight: bold;
 }
 .categori-head {
-    padding-left: 22px
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.categori-head:hover {
+    color: rgb(126, 194, 201); 
 }
 .fa-pen-square span{
     position: relative;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 13px;
+    font-family: sans-serif;
+    font-size: 10px;
     bottom: 4px;
+    left: 5px;
+    color: white;
 }
 .fa-pen-square {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-right: 12px;
+    color: white;
+}
+#blog-search {
+    text-decoration: none;
+}
+.fa-search {
+    color: white;
+    position: relative;
+    right: 30px; 
+}
+.fa-search:hover {
+    color: rgb(126, 194, 201); 
+}
+#blog-write {
+    position: relative;
+    right: 19px;
+    text-decoration: none;
+}
+#blog-write:hover {
+    color: rgb(126, 194, 201); 
+}
+.fa-pen-square:hover {
+    color: rgb(126, 194, 201); 
+}
+.fa-pen-square span:hover {
+    color: rgb(126, 194, 201); 
 }
 #entrance {
     position: relative;
     font-size: 13px;
-    bottom: 4px;
+    bottom: 2px;
     font-weight: bold;
+    width: 64px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background: rgb(104, 180, 189) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+    color: rgb(255, 255, 255);
+    user-select: none;
+    line-height: 30px;
+}
+#entrance:hover {
+    cursor: pointer;
+    background: rgb(128,207,214); 
+}
+@media (max-width: 1370px) {
+    #head-full {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 1250px) {
+    .fa-pen-square span {
+        display: none;
+    }
+    #sing-up-and-make-blog {
+        left: 0px;
+        width: 150px;
+    }
+    #inf-head {
+        display: none;
+    }
 }
