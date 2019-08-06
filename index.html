@@ -13,139 +13,173 @@
     <link rel="stylesheet" href="./css/categories-style.css">
     <link rel="stylesheet" href="./css/e-mail-style.css">
     <link rel="stylesheet" href="./css/button-style.css">
+    <link rel="stylesheet" href="./css/button-up.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/block-login.css">
 </head>
+
 <body>
-    <header>
-        <div id="head-full">
-            <div id="sait-name">
-                <a href="">мел</a>
+    <div id="mask">
+        <button onclick="" id="up-button">Наверх</button>
+        <header>
+            <div id="head-full">
+                <div id="sait-name">
+                    <a id="name" href="">мел</a>
+                </div>
+                <ul id="inf-head">
+                    <li id="ative-line">
+                        <a href="" class="categori-head">Подипски</a>
+                    </li>
+                    <li>
+                        <a href="" class="categori-head">Школы "Мелы"</a>
+                    </li>
+                    <li>
+                        <a href="" class="categori-head">Афиша</a>
+                    </li>
+                </ul>
+                <div id="sing-up-and-make-blog">
+                    <a id="blog-search" href="">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a id="blog-write" href="">
+                        <i class="fas fa-pen-square">
+                            <span>НАПИСАТЬ В БЛОГ</pan>
+                        </i>
+                    </a>
+                    <button  id="entrance">
+                        <span id="entarance-text">ВХОД</span>
+                    </button>
+                </div>
             </div>
-            <ul id="inf-head">
-                <li id="ative-line">
-                    <a href="" class="categori-head">Подипски</a>
+        </header>
+        <div id="categories">
+            <ul>
+                <li>
+                    <a href="">ДО ШКОЛЫ</a>
                 </li>
                 <li>
-                    <a href="" class="categori-head">Школы "Мелы"</a>
+                    <a href="">ШКОЛА</a>
                 </li>
                 <li>
-                    <a href="" class="categori-head">Афиша</a>
+                    <a href="">ВУЗ</a>
+                </li>
+                <li>
+                    <a href="">ПЕРЕМЕНА</a>
+                </li>
+                <li>
+                    <a href="">СЕМЬЯ</a>
+                </li>
+                <li>
+                    <a href="">ПРОФЕССИИ БУДУЩЕГО</a>
+                </li>
+                <li>
+                    <a href="">ПОДРОСТКИ</a>
+                </li>
+                <li>
+                    <a href="">БЛОГИ</a>
                 </li>
             </ul>
-            <div id="sing-up-and-make-blog">
-                <a id="blog-search" href="">
-                    <i class="fas fa-search"></i>
-                </a>
-                <a id="blog-write" href="">
-                    <i class="fas fa-pen-square">
-                        <span>НАПИСАТЬ В БЛОГ</pan>
-                    </i>
-                </a>
-                <button  id="entrance">
-                    <span id="entarance-text">ВХОД</span>
-                </button>
-            </div>
         </div>
-    </header>
-    <div id="categories">
-        <ul>
-            <li>
-                <a href="">ДО ШКОЛЫ</a>
-            </li>
-            <li>
-                <a href="">ШКОЛА</a>
-            </li>
-            <li>
-                <a href="">ВУЗ</a>
-            </li>
-            <li>
-                <a href="">ПЕРЕМЕНА</a>
-            </li>
-            <li>
-                <a href="">СЕМЬЯ</a>
-            </li>
-            <li>
-                <a href="">ПРОФЕССИИ БУДУЩЕГО</a>
-            </li>
-            <li>
-                <a href="">ПОДРОСТКИ</a>
-            </li>
-            <li>
-                <a href="">БЛОГИ</a>
-            </li>
-        </ul>
-    </div>
-    <div id="blogs">
-        <div id="blogs-list">
+        <div id="instrument-for-search">
+            <select id="select-sort">
+                <option disabled selected>Сортировка</option>
+                <option value="value3" onchange="" onclick="">Последине добавленные</option>
+                <option value="value1" onchange="" onclick="">По времени прочтения</option>
+                <option value="value2" onchange="" onclick="">По алфавиту</option>
+            </select>
+            <input id="search-input" type="text" placeholder="Search for INFO..">
+        </div>
+        <div id="blogs">
+            <div id="blogs-list">
+            </div>
+            <template id="infoForCard">
+                <a id="img-blog">
+                    <img id="image" src="" height="220px" width="100%" alt="">
+                </a>
+                <a id="titles">БЛОГ</a>
+                <a id="info-about">
+                </a>
+                <a id="times-view">
+                    <i id="fas fa-history"></i>
+                    <span id="time"></span>
+                    <span>ч.</span>
+                </a>
+            </template>
         </div>
         <div id="button">
-            <input type="button" id="button_styles" value="Больше статей">
+            <input type="button" id="button-add-more-cards" value="Больше статей">
+        </div>
+        <div id="e-mail">
+            <ul>
+                <li id="name-block">
+                    <span>Рассылка «Мела»</span>
+                </li>
+                <li id="searching">
+                    <input type="text" placeholder="Пиши e-mail...">
+                    <button type="submit">
+                        <i class="fab fa-telegram-plane"></i>
+                    </button>
+                </li>
+                <li id="inf-about-mail">
+                    <span>Мы отправляем нашу интересную и очень полезную рассылку два раза в неделю: во вторник и пятницу</span>
+                </li>
+            </ul>
+        </div>
+        <div id="information">
+            <ul>
+                <li id="inf-categories">
+                    <a href="">ДО ШКОЛЫ</a>
+                    <a href="">ШКОЛА</a>
+                    <a href="">ВУЗ</a>
+                    <a href="">ПЕРЕМЕНА</a>
+                    <a href="">СЕМЬЯ</a>
+                    <a href="">ПРОФЕССИИ БУДУЩЕГО</a>
+                    <a href="">ПОДРОСТКИ</a>
+                    <a href="">БЛОГИ</a>
+                </li>
+                <li id="inf">
+                    <a href="">© Мел, 2019</a>
+                    <a href="">Контакты</a>
+                    <a href="">Реклама</a>
+                    <a href="">Пользовательское соглашение</a>
+                    <a href="">Политика конфиденциальности</a>
+                    <a href="">Политика в отношении обработки персональных данны</a>
+                    <a href="">Архив материалов</a>
+                    <a href="">Популярные темы</a>
+                </li>
+                <li id="icon-web">
+                    <a href="">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-vk"></i>
+                        <i class="fab fa-odnoklassniki"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-flipboard"></i>
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </li>
+                <li id="traid-mark">
+                    <span>© Мел, 2019</span>
+                </li>
+            </ul>
         </div>
     </div>
-    <div id="e-mail">
-        <ul>
-            <li id="name-block">
-                <span>Рассылка «Мела»</span>
-            </li>
-            <li id="searching">
-                <input type="text" placeholder="Пиши e-mail...">
-                <button type="submit">
-                    <i class="fab fa-telegram-plane"></i>
-                </button>
-            </li>
-            <li id="inf-about-mail">
-                <span>Мы отправляем нашу интересную и очень полезную рассылку два раза в неделю: во вторник и пятницу</span>
-            </li>
-        </ul>
+    <div id="login-form">
+        <button  id="exit-from-login-form"></button>
+        <div id="login-info">
+            <p id="login-title">Логин</p>
+            <input id="login-input" type="text">
+            <p id="password-title">Пароль</p>
+            <input id="password-input" type="text">
+            <button id="button-to-login">вход</button>
+            <p id="restore-password">Забыли пароль? <a href="">Восстановление</a></p>
+        </div>
     </div>
-    <div id="information">
-        <ul>
-            <li id="inf-categories">
-                <a href="">ДО ШКОЛЫ</a>
-                <a href="">ШКОЛА</a>
-                <a href="">ВУЗ</a>
-                <a href="">ПЕРЕМЕНА</a>
-                <a href="">СЕМЬЯ</a>
-                <a href="">ПРОФЕССИИ БУДУЩЕГО</a>
-                <a href="">ПОДРОСТКИ</a>
-                <a href="">БЛОГИ</a>
-            </li>
-            <li id="inf">
-                <a href="">© Мел, 2019</a>
-                <a href="">Контакты</a>
-                <a href="">Реклама</a>
-                <a href="">Пользовательское соглашение</a>
-                <a href="">Политика конфиденциальности</a>
-                <a href="">Политика в отношении обработки персональных данны</a>
-                <a href="">Архив материалов</a>
-                <a href="">Популярные темы</a>
-            </li>
-            <li id="icon-web">
-                <a href="">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-vk"></i>
-                    <i class="fab fa-odnoklassniki"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-flipboard"></i>
-                    <i class="fab fa-telegram-plane"></i>
-                </a>
-            </li>
-            <li id="traid-mark">
-                <span>© Мел, 2019</span>
-            </li>
-        </ul>
-    </div>
-    <template id="infoForCard">
-        <a class="img-blog">
-            <img src="" height="220px" width="100%" alt="">
-        </a>
-        <a class="titles">БЛОГ</a>
-        <a class="info-about"></a>
-        <a class="times-view">
-            <i class="fas fa-history"></i>
-            <span></span>
-        </a>
-    </template>
 </body>
+<script src="./js/array.js"></script>
 <script src="./js/cardsMaker.js"></script>
+<script src="./js/sort.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/button-up.js"></script>
+<script src="./js/button-login.js"></script>
 </html>

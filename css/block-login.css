@@ -1,0 +1,91 @@
+#login-form {
+    display: none;
+    width: 330px;
+    height: 627px;
+    background-color:white;
+    position: fixed;
+    bottom: 70px;
+    left: 600px;
+    z-index: 99; 
+    flex-direction: column;
+    margin: 0;
+    font-family: PTSerif, serif;
+}
+#login-info {
+    display: grid;
+    position: relative;
+    margin: 0;
+    left: 50px;
+    top: 80px;
+    width: 100px;
+    grid-template-rows: 60px 40px 60px 55px;
+    text-align: center;
+}
+#exit-from-login-form {
+    background-color:white; 
+    border: none;
+    position: relative;
+    background-image: url(times-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    z-index: 99; 
+    border-radius: 100%;
+    top: 5px;
+    left: 5px;
+}
+#exit-from-login-form:hover {
+    cursor: pointer;
+}
+#login-title {
+    height: 40px;
+    width: 40px;
+}
+#login-input {
+    height: 35px;
+    width: auto;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+#login-input:focus {
+    border: 3px solid rgb(126, 194, 201);
+    box-shadow: none;
+}
+
+#password-title {
+    height: 40px;
+    width: 40px;
+}
+#password-input {
+    height: 35px;
+    width: auto;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+#password-input:focus {
+    border: 3px solid rgb(126, 194, 201);
+    box-shadow: none;
+}
+#button-to-login {
+    justify-content: center;
+    background-color: white;
+    color: rgba(0,0,0,.5);
+    border: 3px solid rgb(126, 194, 201);
+    height: 35px;
+    width: auto;
+    position: relative;
+    outline: none;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: Proxima, sans-serif;
+}
+#button-to-login:hover {
+    cursor: pointer;
+}
+#restore-password {
+    font-size: 13px;
+}

@@ -1,4 +1,4 @@
-#button_styles {
+#button-add-more-cards {
     width: 200px;
     height: 49px;
     line-height: 50px;
@@ -12,10 +12,10 @@
     color: rgb(255, 255, 255);
     user-select: none;
 } 
-#button_styles:hover {
+#button-add-more-cards:hover {
     cursor: pointer;
 }
-#button_styles:active {
+#button-add-more-cards:active {
     color: rgb(128,207,214);
 }
 #button {

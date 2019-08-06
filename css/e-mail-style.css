@@ -60,6 +60,14 @@
         left: 80%;
     }
     #inf-about-mail {
-        width: 320px;
+        width: 300px;
+    }
+    #name-block {
+        width: auto;
+    }
+}
+@media (max-width: 370px) {
+    #inf-about-mail {
+        width: auto;
     }
 }

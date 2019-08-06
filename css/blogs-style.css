@@ -1,4 +1,4 @@
-.blog-card {
+#blog-card {
     display: flex;
     width: 280px;
     height: 440px;
@@ -14,13 +14,13 @@
     grid-row-gap: 13px;
     grid-template-columns: 280px 280px 280px 280px;
 }
-.times-view {
+#times-view {
     position: relative;
     top: 26.5px;
     font-size: 14px;
     color: #a1a3a3;
 }
-.info-about {
+#info-about {
     position: relative;
     height: 130px;
     top: 20px;
@@ -30,10 +30,10 @@
     font-weight: bold;
     overflow: hidden;
 }
-.info-about:hover {
+#info-about:hover {
     color: rgb(126, 194, 201); 
 }
-.titles {
+#titles {
     position: relative;
     font-size: 12px;
     color: #ec346d;

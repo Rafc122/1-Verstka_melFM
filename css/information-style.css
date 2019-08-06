@@ -72,15 +72,57 @@
         width: auto;
         height: auto;
     }
+    #inf-categories {
+        width: auto;
+        height: auto;
+    }
 }
-@media (max-width: 670px) {
+@media (max-width: 820px) {
     #inf {
-        width: 350px;
+        width: 660px;
+        height: 0;
     }
     #inf-categories {
         display: block;
     }
     #icon-web {
-        padding-top: 55px;
+        padding-top: 75px;
+    }
+}
+@media (max-width: 690px) {
+    #inf {
+        width: 460px;
+    }
+    #icon-web {
+        padding-top: 85px;
+    }
+    #traid-mark {
+        padding-top: 14px;
+    }
+}
+@media (max-width: 590px) {
+    #inf {
+        width: 360px;
+    }
+    #icon-web {
+        padding-top: 105px;
+    }
+}
+@media (max-width: 390px) {
+    #inf-categories {
+        display: grid;
+        justify-content: left;
+    }
+    #inf {
+        width: 260px;
+    }
+    #information {
+        height: 468px;
+    }
+    #icon-web {
+        padding-top: 125px;
+    }
+    #icon-web i {
+        padding-right: 6px;
     }
 }

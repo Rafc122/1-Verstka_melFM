@@ -1,0 +1,19 @@
+
+#exit-from-login-form {
+    display: block;
+    background-color:white; 
+    border: none;
+    position: fixed;
+    background-image: url(times-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    z-index: 99; 
+    border-radius: 100%;
+    top: 80px;
+    left: 610px;
+    z-index: 99; 
+}
